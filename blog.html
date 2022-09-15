@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Monster</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <main>
+        <section>
+            <div class=" text-center bg-light p-2">
+                <h1>Answer of 4 Question</h1>
+            </div>
+            <div class="d-flex container">
+                <div class="container mt-5 text-bg-primary p-5 rounded-4">
+                    <h3>difference between local storage and session stroage:</h3>
+                    <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage
+                        doesn't expire, data in sessionStorage is cleared when the page session ends. Whenever a
+                        document is loaded in a particular tab in the browser, a unique page session gets created and
+                        assigned to that particular tab.</p>
+                </div>
+                <div class="container mt-5 text-bg-primary p-5 rounded-4 ">
+                    <h3>What is difference between global scope and local scope?:</h3>
+                    <p>A global variable has global scope. A global variable is accessible from anywhere in the code.
+                        Local Scope — Local scope contains things defined inside code blocks. A local variable has local
+                        scope.</p>
+                </div>
+            </div>
+            <div class="d-flex container">
+                <div class="container mt-5 text-bg-primary p-5 rounded-4 ">
+                    <h3>how to work js event loop:</h3>
+                    <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call
+                        Stack is empty, the Event Loop will take the first event from the queue and will push it to the
+                        Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop</p>
+                </div>
+                <div class="container mt-5 text-bg-primary p-5 rounded-4 ">
+                    <h3>undefined :</h3>
+                    <p>undefined is a property of the global object. That is, it is a variable in global scope. The
+                        initial value of undefined is the primitive value undefined.In all non-legacy browsers,
+                        undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid
+                        overriding it.) A variable that has not been assigned a value is of type undefined. A method or
+                        statement also returns undefined if the variable that is being evaluated does not have an
+                        assigned value. A function returns undefined if a value was not returned.</p>
+                </div>
+            </div>
+            <h2 class="text-center fw-bold mt-5">THE END</h2>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./history.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
